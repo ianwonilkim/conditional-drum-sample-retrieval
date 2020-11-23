@@ -209,7 +209,7 @@ We conducted the query-by-example test using the tracks used in the user study. 
     </tr>
     <tr>
         <th> Kick </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_mixed1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/100.0_5 test 000_Hats closed 151_Kick glitch 132_Snare clap 134.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/kick glitch 132.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/kick glitch 130.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/kick glitch 142.wav" type="audio/mpeg"></audio> </th>
