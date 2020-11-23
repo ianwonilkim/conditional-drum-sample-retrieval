@@ -137,41 +137,11 @@ We created a new dataset by synthesizing audio using kick, snare, hi-hat, and lo
 We conducted the query-by-example test using the tracks used in the user study. Since the query audios used for user study have sound quality similar to commercial songs, testing with these audios can verify whether the model is applicable to the real situation. Since the test set contains samples used to create the query audio, we can measure the accuracy with query-by-example. A total of 160 query audio are used in the experiment. 
 </p>
 
-<table>
-    <tr>
-        <th>  </th>
-        <th> Mixed audio loop 1 </th>
-        <th> Rank 1 </th>
-        <th> Rank 2 </th>
-        <th> Rank 3 </th>
-    </tr>
-    <tr>
-        <th> Kick </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_mixed1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_kick1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_kick2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_kick3.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-        <tr>
-        <th> Snare </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_mixed1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_snare1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_snare2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_snare3.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-        <tr>
-        <th> Hi-hat </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_mixed1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_hh1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_hh2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_hh3.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-</table>
 
 <table>
     <tr>
         <th>  </th>
-        <th> Mixed audio loop 2 </th>
+        <th> Mixed audio loop 1 </th>
         <th> Rank 1 </th>
         <th> Rank 2 </th>
         <th> Rank 3 </th>
@@ -202,7 +172,7 @@ We conducted the query-by-example test using the tracks used in the user study. 
 <table>
     <tr>
         <th>  </th>
-        <th> Mixed audio loop 3 </th>
+        <th> Mixed audio loop 2 </th>
         <th> Rank 1 </th>
         <th> Rank 2 </th>
         <th> Rank 3 </th>
@@ -230,6 +200,36 @@ We conducted the query-by-example test using the tracks used in the user study. 
     </tr>
 </table>
 
+<table>
+    <tr>
+        <th>  </th>
+        <th> Mixed audio loop 3 (Bad case) </th>
+        <th> Rank 1 </th>
+        <th> Rank 2 </th>
+        <th> Rank 3 </th>
+    </tr>
+    <tr>
+        <th> Kick </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/128.0_10 test 000_Hats shaker 310_Kick urban 296_Snare beatbox 117.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Kick wet 366.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Snare synth 276.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Kick 808 003.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+        <tr>
+        <th> Snare </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/128.0_10 test 000_Hats shaker 310_Kick urban 296_Snare beatbox 117.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Snare synth 242.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Snare 808 005.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Hats acoustic 061.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+        <tr>
+        <th> Hi-hat </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/128.0_10 test 000_Hats shaker 310_Kick urban 296_Snare beatbox 117.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Hats shaker 303.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Snare urban 280.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Hats open 276.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+</table>
 
 
 
