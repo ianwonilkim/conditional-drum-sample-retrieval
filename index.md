@@ -99,7 +99,7 @@ table {
 
 <table>
     <tr>
-        <th> Source </th>
+        <th>  </th>
         <th> Beatport </th>
         <th> MuseDB18 </th>
         <th> reFx </th>
@@ -112,6 +112,20 @@ table {
     </tr>
 </table>
 
+<table>
+    <tr>
+        <th>  </th>
+        <th> Sample 1 </th>
+        <th> Sample 2 </th>
+        <th> Sample 3 </th>
+    </tr>
+    <tr>
+        <th> Mixed Audio Sample </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Mixed/sample1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Mixed/sample2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Mixed/sample3.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+</table>
 
 
 
