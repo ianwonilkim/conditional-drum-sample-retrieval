@@ -124,9 +124,9 @@ table {
     </tr>
     <tr>
         <th> Mixed Audio Sample </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Mixed/sample1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Mixed/sample2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Mixed/sample3.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/mixed/sample1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/mixed/sample2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/mixed/sample3.wav" type="audio/mpeg"></audio> </th>
     </tr>
 </table>
 
