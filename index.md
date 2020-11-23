@@ -14,6 +14,9 @@ Finding desired instrument samples is one of the most important tasks in sample-
 <center>
 ![Model Architecture Ver 5 small artboard 2](./assets/img/figure1.png){: width="50%" height="50%"}
 </center>
+
+<center><img src="./assets/img/figure1.png" width="300" height="300"></center>
+
 <p align="center">Overview of the proposed model. Given a mixed audio $x_a$ and two monophonic drum samples (kick drum in this example), x_p and x_n, the two embedding functions, f(.) and g(.), are trained by applying a condition mask for the drum type to enforce the relevant information to be embedded in the drum sub-dimension.</p>
 
 ### Dataset
