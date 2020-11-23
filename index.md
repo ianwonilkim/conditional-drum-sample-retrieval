@@ -140,7 +140,7 @@ We conducted the query-by-example test using the tracks used in the user study. 
 <table>
     <tr>
         <th>  </th>
-        <th> Mixed audio loop </th>
+        <th> Mixed audio loop 1 </th>
         <th> Rank 1 </th>
         <th> Rank 2 </th>
         <th> Rank 3 </th>
@@ -168,6 +168,67 @@ We conducted the query-by-example test using the tracks used in the user study. 
     </tr>
 </table>
 
+<table>
+    <tr>
+        <th>  </th>
+        <th> Mixed audio loop 2 </th>
+        <th> Rank 1 </th>
+        <th> Rank 2 </th>
+        <th> Rank 3 </th>
+    </tr>
+    <tr>
+        <th> Kick </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_mixed1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_kick1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_kick2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_kick3.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+        <tr>
+        <th> Snare </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_mixed1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_snare1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_snare2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_snare3.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+        <tr>
+        <th> Hi-hat </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_mixed1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_hh1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_hh2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_hh3.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>  </th>
+        <th> Mixed audio loop 3 </th>
+        <th> Rank 1 </th>
+        <th> Rank 2 </th>
+        <th> Rank 3 </th>
+    </tr>
+    <tr>
+        <th> Kick </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_mixed1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_kick1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_kick2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_kick3.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+        <tr>
+        <th> Snare </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_mixed1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_snare1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_snare2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_snare3.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+        <tr>
+        <th> Hi-hat </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_mixed1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_hh1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_hh2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_hh3.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+</table>
 
 
 
