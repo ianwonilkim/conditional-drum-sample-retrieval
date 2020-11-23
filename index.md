@@ -8,16 +8,16 @@ This Repository is an implementation repository for Conditional Drum Sample Retr
 
 ### Overview
 <p align="justify">
-MusicMusic listeners typically rely on a combination of listening contexts to find music including elements of mood, theme, time of day, location and activity. This scenario can be handled by defining a dictionary of contextual terms and directly associating them with music as a class label. However, such a music tagging approach (i.e., multi-label classification) is severely limited in considering contextual expression complexities that listeners can use from a natural language perspective. For example, a listener may use `club' to search for electronic dance music, and unless a model is trained with this specific word, it is not possible to consider the word as a query string. This issue has been addressed by representing tag words with embedding vectors and associating them with music in several different settings such as zero-shot learning \cite{choi2019zero}, query-by-blending and multi-task music representation learning. The aforementioned approaches were based on system training utilizing word embedding with either general text (e.g., Wikipedia or Gigaword) or music-specific corpus (e.g., tags, lyrics, artist IDs, track IDs). What is noteworthy here is that the general text training approach is limited in reflecting "musical" dimensions, whereas music-specific corpus limits incorporation of listening contexts which are not directly related to music while simultaneously suffering from small vocabulary size. 
+Finding desired instrument samples is one of the most important tasks in sample-based music composition. However, searching through a large collection of samples is an obstacle to the creative activities. We present a method to conditionally retrieve different types of instrument samples from mixed audio as a query using disentangled audio embedding. We learn the disentangled audio embedding via cross-modality metric learning using conditional similarity networks. We conduct a variety of experiments and show that the model outperforms previous approaches in the query-by-example task. We also show through our user test that our proposed model is able to retrieve similar samples, which is comparable to human timbre perception. Finally, we visualize the disentangled embedding space and provide the insight into the effectiveness of applying a condition mask for each drum class.
+
 </p>
 
 ![Model Architecture Ver 5 small artboard 2](./assets/img/figure1.png)
 <p align="center">Figure.1 Train W2V and T-sne Visualization</p>
 
-### Visualization
+### Dataset
 <p align="justify">
-
-The t-SNE plot in Figure 1 provides a more intuitive  example on the result. We used two music genre terms 'electronic' and 'house' and three listening context terms 'club', 'club_dance', and 'partying'. In Wikipedia, they spread apart having only 'house' and 'club' close together. In the music corpus, the two genre terms and 'club' and 'club_dance' are tightly clustered while having 'partying' away. In the music corpus with Wikipedia, the context term 'partying' also becomes closer to the two genres and other context terms. This indicates that using both general and music-specific data provides more balanced correlation between music and listening context.
+We created a new dataset by synthesizing audio using kick, snare, hi-hat, and loop track. In the four classes, kick, snare, and hi-hat are one-shot (or single isolated) samples, and loop tracks are multi-instrument audio excluding drums. We collected samples with different tags such as 808, acoustic, beatbox, glitch, impact, and lofi, which are frequently used in pop, electronic and hip-hop music genres. In case of loop tracks, we collected data through Beatport, which provides stems of high-quality commercial songs. To diversify genres, we also utilize a publicly available dataset, MUSDB18, creating loop tracks by removing the drum tracks. We only use songs with a constant tempo which ranges from 67.5 to 126 BPM. As a result, a total of 2,000 kick, snare, and hi-hat one-shot samples, and 297 loop tracks are used in the experiment. We conducted experiments with 1,500 training samples, 100 validation samples, and 400 test samples for each drum class.
 </p>
 
 ### Retrieval Result
@@ -44,10 +44,10 @@ table {
 
 <table>
     <tr>
-        <th> Query </th>
-        <th> Similar Song 1 </th>
-        <th> Similar Song 2 </th>
-        <th> Similar Song 3 </th>
+        <th> Category </th>
+        <th> Kick </th>
+        <th> Snare </th>
+        <th> Hi-hat </th>
     </tr>
     <tr>
         <th> club </th>
