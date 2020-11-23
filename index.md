@@ -51,39 +51,39 @@ table {
     </tr>
     <tr>
         <th> 808 </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club/rank0.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club/rank1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club/rank2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/808/sample1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/808/sample2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/808/sample3.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
         <th> Acoustic </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club_house_electornic/rank0.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club_house_electornic/rank1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club_house_electornic/rank2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Acoustic/sample1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Acoustic/sample2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Acoustic/sample3.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
         <th> Beatbox </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club_electronic_summer/rank0.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club_electronic_summer/rank1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club_electronic_summer/rank2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Beatbox/sample1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Beatbox/sample2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Beatbox/sample3.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
         <th> Glitch </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/energetic_rap_exercise_workout/rank0.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/energetic_rap_exercise_workout/rank1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/energetic_rap_exercise_workout/rank2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Glitch/sample1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Glitch/sample2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Glitch/sample3.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
         <th> Impact </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/energetic_pop_rock_exercise_workout/rank0.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/energetic_pop_rock_exercise_workout/rank1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/energetic_pop_rock_exercise_workout/rank2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Impact/sample1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Impact/sample2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Impact/sample3.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
         <th> lofi </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/happy_jazz_cafe/rank0.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/happy_jazz_cafe/rank1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/happy_jazz_cafe/rank2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/lofi/sample1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/lofi/sample2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/lofi/sample3.wav" type="audio/mpeg"></audio> </th>
     </tr>
 </table>
 
