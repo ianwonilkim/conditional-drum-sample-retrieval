@@ -96,27 +96,15 @@ table {
 <table>
     <tr>
         <th> Source </th>
-        <th> Loop track 1 </th>
-        <th> Loop track 2 </th>
-        <th> Loop track 3 </th>
-    </tr>
-    <tr>
         <th> Beatport </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club/rank0.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club/rank1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club/rank2.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-    <tr>
         <th> MuseDB18 </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club_house_electornic/rank0.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club_house_electornic/rank1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club_house_electornic/rank2.wav" type="audio/mpeg"></audio> </th>
+        <th> reFx </th>
     </tr>
     <tr>
-        <th> reFx </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club_electronic_summer/rank0.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club_electronic_summer/rank1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/club_electronic_summer/rank2.wav" type="audio/mpeg"></audio> </th>
+        <th> Loop track </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Loop/Beatport.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Loop/MuseDB18.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Loop/reFx.wav" type="audio/mpeg"></audio> </th>
     </tr>
 </table>
 
