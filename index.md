@@ -178,24 +178,24 @@ We conducted the query-by-example test using the tracks used in the user study. 
     </tr>
     <tr>
         <th> Kick </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_mixed1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_kick1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_kick2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_kick3.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/128.0_15 test 000_Hats acoustic 077_Kick acoustic 058_Snare acoustic 062.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Kick acoustic 058.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Kick impact 170.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Kick acoustic 049.wav" type="audio/mpeg"></audio> </th>
     </tr>
         <tr>
         <th> Snare </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_mixed1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_snare1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_snare2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_snare3.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/128.0_15 test 000_Hats acoustic 077_Kick acoustic 058_Snare acoustic 062.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Snare acoustic 062.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Snare acoustic 061.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Snare glitch 195.wav" type="audio/mpeg"></audio> </th>
     </tr>
         <tr>
         <th> Hi-hat </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_mixed1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_hh1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_hh2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/2_hh3.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/128.0_15 test 000_Hats acoustic 077_Kick acoustic 058_Snare acoustic 062.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Hats acoustic 078.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Hats acoustic 077.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Hats shaker 286.wav" type="audio/mpeg"></audio> </th>
     </tr>
 </table>
 
