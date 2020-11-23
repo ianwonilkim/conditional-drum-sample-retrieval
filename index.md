@@ -216,17 +216,17 @@ We conducted the query-by-example test using the tracks used in the user study. 
     </tr>
         <tr>
         <th> Snare </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_mixed1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_snare1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_snare2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_snare3.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/100.0_5 test 000_Hats closed 151_Kick glitch 132_Snare clap 134.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Snare clap 134.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Snare clap 151.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Snare glitch 197.wav" type="audio/mpeg"></audio> </th>
     </tr>
         <tr>
         <th> Hi-hat </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_mixed1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_hh1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_hh2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/3_hh3.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/100.0_5 test 000_Hats closed 151_Kick glitch 132_Snare clap 134.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Hats glitch 186.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Hats urban 333.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/Hats 808 015.wav" type="audio/mpeg"></audio> </th>
     </tr>
 </table>
 
