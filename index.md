@@ -11,9 +11,9 @@ This Repository is an implementation repository for Conditional Drum Sample Retr
 Finding desired instrument samples is one of the most important tasks in sample-based music composition. However, searching through a large collection of samples is an obstacle to the creative activities. We present a method to conditionally retrieve different types of instrument samples from mixed audio as a query using disentangled audio embedding. We learn the disentangled audio embedding via cross-modality metric learning using conditional similarity networks. We conduct a variety of experiments and show that the model outperforms previous approaches in the query-by-example task. We also show through our user test that our proposed model is able to retrieve similar samples, which is comparable to human timbre perception. Finally, we visualize the disentangled embedding space and provide the insight into the effectiveness of applying a condition mask for each drum class.
 
 </p>
-<center>
+<!-- <center>
 ![Model Architecture Ver 5 small artboard 2](./assets/img/figure1.png){: width="50%" height="50%"}
-</center>
+</center> -->
 
 <center><img src="./assets/img/figure1.png" width="300" height="300"></center>
 
