@@ -135,6 +135,9 @@ table {
 We created a new dataset by synthesizing audio using kick, snare, hi-hat, and loop track. In the We evaluate the model through a query-by-example experiment, where the query is a mixed audio loop and targets are monophonic drum samples. This resembles the real-world scenario of sample searching during sample-based music composition. The distance between the query audio and the target audio set is computed with the Euclidean, and the retrieval result is listed in the nearest order. The target audio set consists of kick, snare, and hi-hat samples of various timbre, all of which are unseen data. In this experiment, a total of 1200 target data samples were used in the experiment, with 400 samples for each class. 
 
 We conducted the query-by-example test using the tracks used in the user study. Since the query audios used for user study have sound quality similar to commercial songs, testing with these audios can verify whether the model is applicable to the real situation. Since the test set contains samples used to create the query audio, we can measure the accuracy with query-by-example. A total of 160 query audio are used in the experiment. 
+
+We manually mixed test data with a DAW as one would do in real-world music production. We used Battery 4 Sampler to record the drum track and applied conventional mixing mastering techniques, such as reverb, compressor, exciter, and limiter. 
+
 </p>
 
 
