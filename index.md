@@ -149,8 +149,22 @@ We conducted the query-by-example test using the tracks used in the user study. 
         <th> Kick </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_mixed1.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_kick1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_kick2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_kick3.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+        <tr>
+        <th> Snare </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_mixed1.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_snare1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_snare2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_snare3.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+        <tr>
+        <th> Hi-hat </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_mixed1.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_hh1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_hh2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/result/1_hh3.wav" type="audio/mpeg"></audio> </th>
     </tr>
 </table>
 
