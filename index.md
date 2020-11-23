@@ -74,16 +74,22 @@ table {
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Glitch/sample3.wav" type="audio/mpeg"></audio> </th>
     </tr>
     <tr>
-        <th> Impact </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Impact/sample1.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Impact/sample2.wav" type="audio/mpeg"></audio> </th>
-        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Impact/sample3.wav" type="audio/mpeg"></audio> </th>
-    </tr>
-    <tr>
         <th> lofi </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/lofi/sample1.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/lofi/sample2.wav" type="audio/mpeg"></audio> </th>
         <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/lofi/sample3.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> Vintage </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Vintage/sample1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Vintage/sample2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Vintage/sample3.wav" type="audio/mpeg"></audio> </th>
+    </tr>
+    <tr>
+        <th> Wet </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Wet/sample1.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Wet/sample2.wav" type="audio/mpeg"></audio> </th>
+        <th> <audio controls id="player" onplay="pauseOthers(this);"><source src="assets/audios/Wet/sample3.wav" type="audio/mpeg"></audio> </th>
     </tr>
 </table>
 
