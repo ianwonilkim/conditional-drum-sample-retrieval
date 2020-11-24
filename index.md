@@ -141,7 +141,7 @@ We manually mixed test data with a DAW as one would do in real-world music produ
 ### Inference results
 
 <p align="justify">
-The mixed audio loop examples are audio used in user study.
+The following examples of mixed audio loops were used in user study.
 
 <table>
     <tr>
